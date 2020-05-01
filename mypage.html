@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="homeCss.css">
+	<title>home | my photography</title>
+</head>
+        <body>
+        	<div id="hambugger" class="sidenav">
+        	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
+            <a href="home.html">HOME</a>
+            <a href="mystory.html">MY STORY</a>
+            <a href="image.html">IMAGE GALLERY</a>
+            <a href="qualifications.html">QUALIFICATIONS</a>
+            <a href="contact.html">CONTACT</a>
+            <!img src="Lion1.jpg">
+        </div>
+        <span style="font-size: 30px;cursor: pointer" onclick="openNav()">&#9776;</span>
+        <script type="text/javascript">
+        	function  openNav(){
+        		document.getElementById('hambugger').style.display="block"
+        	}
+        	function closeNav() {
+        		document.getElementById('hambugger').style.display="none"
+        	}
+        </script>
+        <h1>WELCOME! HARSHAD</h1>
+        <form action="/my-handling form page" method="post">
+        	<div>
+        		<label for="name">NAME:</label>
+        		<input type="text" id="name" name="user_name">
+        	</div>
+        	<div>
+        		<label for="email">EMAIL:</label>
+        		<input type="email" id="email" name="user_email">
+        	</div>
+        	<div>
+        		<label for="msg">MESSAGE:</label>
+        		<textarea id="msg" name="user_msg"></textarea>
+        	</div>
+        	<div class="button" align="center">
+        		<a class="button1" href="https://mail.google.com" target="_blank" rel="index">send</a>
+        	</div>
+        </form>
+        </body>
+</html>

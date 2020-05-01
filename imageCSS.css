@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #cccccc;
+	padding: 20px;
+	font-family: Arial Black;
+}
+.main{
+	max-width: 1500px;
+	margin:auto;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+.row{
+	margin: 8px-16px;
+}
+.coloumn{
+	float: left;
+	width: 50%;
+}
+.content{
+	background-color:white;
+	padding:15px;
+}
