@@ -1,0 +1,75 @@
+body,html{
+	background-color: black;
+}
+h1,p{
+	text-align: center;
+	color: white;
+}
+h2{
+	color: white;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-size:70px;
+}
+.content{
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	padding:16px;
+	position: absolute;
+	right:37%;
+	bottom:40%;
+	background-color: rgb(163,207,201,0.2);
+}
+.content img{
+	float: right;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+.skills{
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-family: helvetica;
+	background-color: #808080;
+	border-radius: 5px;
+	border:0.25px solid #ccc;
+}
+.wdes{
+	width: 80%;
+    background-color: #80D4F0;
+}
+.wd{
+     width: 90%;
+    background-color:#C0C0C2;
+}
+.phy{
+     width: 60%;
+    background-color: #80D4F0;
+}
+.js{
+    width: 75%;
+    background-color:#C0C0C2;
+}
+.tms{
+     width: 90%;
+    background-color: #80D4F0;
+}
+.comm{
+     width: 40%;
+    background-color:#C0C0C2;
+}
+.ips{
+     width: 80%;
+    background-color: #80D4F0;
+}
+.tply{
+     width: 70%;
+    background-color:#C0C0C2;
+}
+.prob{
+     width: 85%;
+    background-color: #80D4F0;
+}
